@@ -50,7 +50,8 @@ public class Game extends Canvas {
 	}
 
 	public void paint(Graphics g) {
-		g.drawRect(0, 0, 300, 300);
+		g.setColor(Color.BLUE);
+		g.fillRect(0, 0, 300, 300);
 
 		g.setColor(Color.MAGENTA);
 		for (Ball b : balls) {
